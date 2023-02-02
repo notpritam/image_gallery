@@ -6,9 +6,7 @@ import { debounce } from 'lodash'
 
 const unsplash = createApi({
     accessKey: 'UcXHv7WpOgJbm6CFgd2bxcwVvXx57Hn7OMEM_4W5Isw'
-})
-git config --global user.email "notpritamsharma@gmail.com"
-  git config --global user.name "notpritam"
+});
 function Header() {
 
     const [phrase, setPhrase] = useState('');
